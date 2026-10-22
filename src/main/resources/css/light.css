@@ -1,0 +1,68 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+.root {
+    -fx-background-color: #f4f7fb;
+    -fx-text-fill: #152238;
+}
+.label {
+    -fx-text-fill: #152238;
+}
+.title {
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1769aa;
+}
+.subtitle {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.text-field, .password-field, .text-area {
+    -fx-background-color: white;
+    -fx-text-fill: #152238;
+    -fx-prompt-text-fill: #718096;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.button {
+    -fx-background-color: #1769aa;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 18;
+    -fx-background-radius: 7;
+}
+.list-view {
+    -fx-background-color: #eaf0f7;
+    -fx-control-inner-background: #eaf0f7;
+}
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #152238;
+    -fx-padding: 12;
+}
+.list-cell:selected {
+    -fx-background-color: #cfe3f7;
+}
+.message {
+    -fx-background-color: white;
+    -fx-padding: 12;
+    -fx-background-radius: 10;
+}
+.message-author {
+    -fx-text-fill: #1769aa;
+    -fx-font-weight: bold;
+}
+
+* { -fx-font-family: "Segoe UI"; }
+.root { -fx-background-color: #f4f7fb; -fx-text-fill: #152238; }
+.label { -fx-text-fill: #152238; }
+.title { -fx-font-size: 34px; -fx-font-weight: bold; -fx-text-fill: #1769aa; }
+.subtitle { -fx-font-size: 20px; -fx-font-weight: bold; }
+.text-field, .password-field, .text-area { -fx-background-color: white; -fx-text-fill: #152238; -fx-prompt-text-fill: #718096; -fx-border-color: #cbd5e1; -fx-border-radius: 6; -fx-background-radius: 6; }
+.button { -fx-background-color: #1769aa; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 18; -fx-background-radius: 7; }
+.list-view { -fx-background-color: #eaf0f7; -fx-control-inner-background: #eaf0f7; }
+.list-cell { -fx-background-color: transparent; -fx-text-fill: #152238; -fx-padding: 12; }
+.list-cell:selected { -fx-background-color: #cfe3f7; }
+.message { -fx-background-color: white; -fx-padding: 12; -fx-background-radius: 10; }
+.message-author { -fx-text-fill: #1769aa; -fx-font-weight: bold; }

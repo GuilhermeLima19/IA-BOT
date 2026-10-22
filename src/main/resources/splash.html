@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatIA Splash</title>
+    <!-- Importando o GSAP via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            background-color: #07111f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+            color: #e8f1ff;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #42a5ff;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        p {
+            font-size: 16px;
+            color: #7690aa;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 id="title">ChatIA Desktop</h1>
+    <p id="subtitle">Carregando inteligência artificial...</p>
+</div>
+
+<script>
+    // Animação com GSAP Timeline
+    const tl = gsap.timeline();
+    tl.to("#title", { opacity: 1, y: 0, duration: 1, ease: "power2.out" })
+        .to("#subtitle", { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }, "-=0.4");
+</script>
+</body>
+</html>

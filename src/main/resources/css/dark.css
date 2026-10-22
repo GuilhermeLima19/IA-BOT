@@ -1,0 +1,81 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+.root {
+    -fx-background-color: #07111f;
+    -fx-text-fill: #e8f1ff;
+}
+.label {
+    -fx-text-fill: #e8f1ff;
+}
+.title {
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #42a5ff;
+}
+.subtitle {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.text-field, .password-field, .text-area {
+    -fx-background-color: #101e31;
+    -fx-control-inner-background: #101e31;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #7690aa;
+    -fx-border-color: #27415e;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.button {
+    -fx-background-color: #1678d2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 18;
+    -fx-background-radius: 7;
+}
+.button:hover {
+    -fx-background-color: #2990ee;
+}
+.list-view {
+    -fx-background-color: #0b1727;
+    -fx-control-inner-background: #0b1727;
+}
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d7e7fa;
+    -fx-padding: 12;
+}
+.list-cell:selected {
+    -fx-background-color: #173452;
+}
+.scroll-pane {
+    -fx-background: #07111f;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: #07111f;
+}
+.message {
+    -fx-background-color: #101e31;
+    -fx-padding: 12;
+    -fx-background-radius: 10;
+}
+.message-author {
+    -fx-text-fill: #42a5ff;
+    -fx-font-weight: bold;
+}
+
+* { -fx-font-family: "Segoe UI"; }
+.root { -fx-background-color: #07111f; -fx-text-fill: #e8f1ff; }
+.label { -fx-text-fill: #e8f1ff; }
+.title { -fx-font-size: 34px; -fx-font-weight: bold; -fx-text-fill: #42a5ff; }
+.subtitle { -fx-font-size: 20px; -fx-font-weight: bold; }
+.text-field, .password-field, .text-area { -fx-background-color: #101e31; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #7690aa; -fx-border-color: #27415e; -fx-border-radius: 6; -fx-background-radius: 6; }
+.button { -fx-background-color: #1678d2; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10 18; -fx-background-radius: 7; }
+.button:hover { -fx-background-color: #2990ee; }
+.list-view { -fx-background-color: #0b1727; -fx-control-inner-background: #0b1727; }
+.list-cell { -fx-background-color: transparent; -fx-text-fill: #d7e7fa; -fx-padding: 12; }
+.list-cell:selected { -fx-background-color: #173452; }
+.scroll-pane { -fx-background: #07111f; }
+.scroll-pane > .viewport { -fx-background-color: #07111f; }
+.message { -fx-background-color: #101e31; -fx-padding: 12; -fx-background-radius: 10; }
+.message-author { -fx-text-fill: #42a5ff; -fx-font-weight: bold; }
